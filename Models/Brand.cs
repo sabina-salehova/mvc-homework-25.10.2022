@@ -9,5 +9,6 @@ namespace mvc_homework_25._10._2022.Models
     {
         public int id { get; set; }
         public string name { get; set; }
+        public List<Product> products { get; set; }
     }
 }

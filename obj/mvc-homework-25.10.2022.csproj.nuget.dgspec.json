@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj": {}
+    "C:\\Users\\User\\Desktop\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj": {
+    "C:\\Users\\User\\Desktop\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj",
         "projectName": "mvc-homework-25.10.2022",
-        "projectPath": "C:\\Users\\User\\source\\repos\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\mvc-homework-25.10.2022\\mvc-homework-25.10.2022.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\mvc-homework-25.10.2022\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\mvc-homework-25.10.2022\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
